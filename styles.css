@@ -1,19 +1,27 @@
 body {
-	background-color: #DF6868;
+	background-color: black;
 	
 }
+
+
+
+
+
 
 #navText {
 	font-size: 20px;
 	font-weight: 200;
 }
 
-.images {
+/*img {
 	width: 100%;
-	height: 400px;
+	height: 500px;
 }
-
-
+*/
+.images {
+	height: 400px;
+	width: 100%;
+}
 
 
 #desert {
@@ -50,8 +58,49 @@ body {
 	position: fixed;
 }*/
 
-#mover {
-	z-index: 10;
+#clouds {
+	/*height: 400px;*/
+	/*z-index: 10;*/
+	position: relative;
+	background-color: transparent;
+}
+
+.cloudText {
+	position: absolute;
+	/*position: fixed;*/
+}
+
+#quoteLeft {
+	/*display: inline-block;*/
+	font-size: 40px;
+	width: 50%;
+	height: 50%;
+	/*float: left;*/
+}
+
+#quoteRight {
+	display: inline-block;
+	font-size: 40px;
+	clear: both;
+	width: 50%;
+	height: 50%;
+	/*float: right;*/
+}
+
+#quoteBottom {
+	/*display: inline-block;*/
+	font-size: 40px;
+	clear: both;
+	width: 100%;
+	margin-top: 300px;
+}
+
+#quoteRunoff {
+	/*display: inline-block;*/
+	font-size: 40px;
+	clear: both;
+	width: 100%;
+	margin-top: 400px;
 }
 
 #divOne {
@@ -82,7 +131,7 @@ body {
 	/*vertical-align: middle;*/
 	/*margin: auto;*/
 	/*position: fixed;*/
-	display: block;
+	/*display: block;*/
 }
 
 #circleOne {
@@ -120,6 +169,10 @@ div {
 	text-align: center;
 	}
 
+	p {
+		font-size: 12px;
+	}
+
 
 
 
@@ -130,19 +183,15 @@ div {
 	width: 100%; 
 	background-color: black;
 	display: block;
-
-
-
 }
 
 #contact {
-	height: 100px;
-	width: 900px;
-	background-color: black;
-	text-align: center;
-	vertical-align: middle;
-	margin: auto;
-	position: fixed;
+	float: left;
+}
+
+#listngs {
+	clear: both;
+	float: right;
 }
 
 /*.footerP {
