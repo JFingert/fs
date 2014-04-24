@@ -1,0 +1,163 @@
+body {
+	background-color: #DF6868;
+	
+}
+
+#navText {
+	font-size: 20px;
+	font-weight: 200;
+}
+
+.images {
+	width: 100%;
+	height: 400px;
+}
+
+
+
+
+#desert {
+	position: fixed;
+	/*z-index: 11000;*/
+}
+
+
+
+#helloWorld {
+	height: 100px;
+	width: 100%;
+	background-color: black;
+	opacity: 0.5;
+	z-index: 100;
+
+	font-size: 30px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+
+	position: fixed;
+}
+
+
+
+/*#divOne, #mover {
+	height: 500px;
+	width: 500px;
+	
+	vertical-align: middle;
+	margin: auto;
+	position: fixed;
+}*/
+
+#mover {
+	z-index: 10;
+}
+
+#divOne {
+	height: 450px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+/*	position: fixed;
+*/}
+
+#divTwo {
+	height: 400px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+/*	position: fixed;
+*/}
+
+#divThree {
+	height: 400px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	/*vertical-align: middle;*/
+	/*margin: auto;*/
+	/*position: fixed;*/
+	display: block;
+}
+
+#circleOne {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+	/*position: fixed;*/
+	/*vertical-align: middle;
+	margin: auto;*/
+}
+#circleTwo {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+#circleThree {
+	height: 100px;
+	width: 100px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
+}
+
+
+
+div {
+	font-size: 60px;
+	font-family: 'Exo', sans-serif;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	}
+
+
+
+
+.footer {
+	
+	/*margin: auto;*/
+	height: 150px; 
+	width: 100%; 
+	background-color: black;
+	display: block;
+
+
+
+}
+
+#contact {
+	height: 100px;
+	width: 900px;
+	background-color: black;
+	text-align: center;
+	vertical-align: middle;
+	margin: auto;
+	position: fixed;
+}
+
+/*.footerP {
+	text-align: right;
+	vertical-align: middle;
+	margin: auto;
+}*/
+
+
+
+
+@media (max-width: 700px) {
+	
+
+	.footerP {
+		size: 10px;
+	}
+}

@@ -1,0 +1,185 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <!-- <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/styles.css">
+  <link rel="text/javascript" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.min.js"> -->
+
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+
+  <link type="text/javascript" href="app.js">
+  <link href='http://fonts.googleapis.com/css?family=Exo:100,400' rel='stylesheet' type='text/css'>	
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <title></title>
+</head>
+<body>
+
+
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" class="active" id="future" href="">Future State</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav" id="navText">
+          <li><a href="#jellyfish">Jellyfish</a></li>
+          <li><a href="#contact">contact</a></li>
+          <li class="dropdown">
+            <a href="#" id="dd" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#divOne">divOne</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+              <li class="divider"></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+
+
+
+
+
+
+
+
+
+        <ul class="nav navbar-nav navbar-right" id="navText">
+          <li><a href="#divTwo">divTwo</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav>
+  
+
+
+
+
+  <div class="content">
+
+
+
+
+
+
+
+    <div id="desert">  
+      <img class="images" src="images/desert-rain.jpg">
+    </div>
+
+    <div id="helloWorld">
+
+      <span class="divText">Future State Portland OR  email@email.com 555.555.5555</span>
+
+    </div>
+
+
+    <div id="divOne">    
+      <p style="font-size: 60px;">
+        Future State <br>
+        Future State <br>
+        Future State <br>
+        Future State
+      </p>
+    </div>
+    <div id ="mover" class="images">
+      <img src="images/sky-home.jpg">
+    </div>
+
+    <div id="divTwo">
+     <p class="divText">
+      Drop Us A Line. <br>
+      Current Listings.
+    </p>
+  </div>
+
+  <div id="jellyfish" class="images">
+    <img src="images/Ocean-Animals-animals-27960315-1920-1200.jpg">
+  </div>
+
+  <div id="divThree">
+
+    Current Listings<br>
+    Contact Us
+   
+    <img id="circleOne" src="images/enso-circle.jpg">
+    <img id="circleTwo" src="images/enso-circle.jpg">
+    <img id="circleThree" src="images/enso-circle.jpg">
+
+
+  </div>
+
+  <div id="footer">
+    <div id="contact">
+     <h4 class="divText">The Footer!</h4>
+   </div>
+ </div>
+</div>                    <!-- End of Content -->
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+function slide () {
+  var desert = document.getElementById('desert');
+  var helloWorld = document.getElementById('helloWorld');
+    // var future = document.getElementById('future');
+
+
+            // greenBox.style.width = (150 + window.pageYOffset) + 'px';
+            desert.style.top = (window.pageYOffset + 50) + 'px';
+            helloWorld.style.top = ((window.pageYOffset - 100) / 2) + 'px';
+            // blueBox.style.left = (window.pageYOffset-2) + 'px';
+
+            console.log("Y Offset: " + window.pageYOffset);
+          }
+          window.addEventListener("scroll", slide, false);  
+
+
+          $('#future').animate({'opacity': 0}, 1000, function () {
+            $(this).text('Future State');
+          }).animate({'opacity': 1}, 1000);
+
+          </script>
+
+
+        </body>
+        </html>
