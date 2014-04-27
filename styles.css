@@ -2,9 +2,13 @@ body {
 	background-color: black;
 	font-size: 60px;
 	font-family: 'Exo', sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 	color: white;
 	text-align: center;
+}
+
+div {
+	float: center;
 }
 
 #top {
@@ -13,7 +17,6 @@ body {
 }
 
 .container {
-	/*margin-top: 40px;*/
 	background-color: black;
 }
 
