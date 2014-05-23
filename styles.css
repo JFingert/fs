@@ -27,8 +27,22 @@ body {
 }
 
 #landing {
+  background: url("images/mtHoodLg.png");
   position: fixed;
-  background-color: transparent;
+  height: 100%;
+  width: 100%;
+}
+
+#slogan {
+  height: 700px;
+  background: transparent;
+  font-size: 50px;
+  color: white;
+  font-family: 'Exo', sans-serif;
+  text-align: center;
+  padding-top: 300px;
+  position: relative;
+  display: block;
 }
 
 /*div {
@@ -169,5 +183,19 @@ body {
 @media (max-width: 600px) {
   #cloudText {
     font-size: 20px;
+  }
+
+  #landing {
+    height: 300px;
+  }
+
+  #slogan {
+    height: 300px;
+    padding-top: 100px;
+
+  }
+
+  .content {
+    margin-top: 0px;
   }
 }

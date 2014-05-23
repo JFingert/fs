@@ -45,7 +45,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav" id="navText">
-          <li><a data-scroll href="#jellyfish">Jellyfish</a></li>
+          <li><a data-scroll href="#divOne">One</a></li>
+          <li><a data-scroll href="#divTwo">Two</a></li>
+          <li><a data-scroll href="#pdx">About Us</a></li>
           <li><a data-scroll href="#contact">contact</a></li>
           <li class="dropdown">
             <a href="#" id="dd" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
@@ -98,17 +100,23 @@
     </div>
   </div> --> 
 
-  <img class="img-responsive" src="images/mtHood.png">
+  <!-- <img class="img-responsive" src="images/mtHoodLg.png"> -->
+</div>
+
+<div id="slogan">
+  Future State
+  <h4>Oregon</h4>
+  
 </div>
 
 
 <div class="content">
-
+  
 
 
   <div id="divOne" class="row">    
     <div class="col-md-6 divLeft">
-      <img class="img-responsive" src="images/worker.jpg">
+      <img class="img-responsive" src="images/office.jpg">
     </div>
     <div class="col-md-6 divRight">
       Lorem ipsum dolor sit amet <br>
@@ -125,8 +133,8 @@
 
 
   <div id="clouds" class="row">
-   
-    
+
+
     <div class="quote col-xs-6 col-md-5 col-md-offset-1 textBox">
       <div class="col-md-6  yellowTop">Title</div><br>
       <div id="cloudText" class="col-md-6 ">
@@ -167,8 +175,8 @@
   </div>    
 </div>
 
-<div id="jellyfish" class="row">
-  <img class="img-responsive col-lg-12" src="images/portland.png">
+<div id="pdx" class="row">
+  <img class="img-responsive col-lg-12" src="images/portland.jpg">
 </div>
 
 <div id="divThree" class="row">
@@ -205,7 +213,19 @@
 
 
 <script>
-smoothScroll.init();
+  smoothScroll.init
+  ({
+    speed: 500, 
+    // easing: 'easeInQuart', 
+    updateURL: false, 
+    offset: 50, 
+    callbackBefore: function ( toggle, anchor ) {}, 
+    callbackAfter: function ( toggle, anchor ) {} 
+  });
+
+  $('#myScrollspy').on('activate.bs.scrollspy', function () {
+    $('this').addClass('active');
+  })
 </script>
 
 
