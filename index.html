@@ -1,6 +1,5 @@
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <!-- <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap-theme.min.css">
   <link rel="text/javascript" type="text/css" href="bootstrap-3.1.1-dist/css/bootstrap.min.js"> -->
@@ -11,6 +10,9 @@
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
 
   <!-- Latest compiled and minified JavaScript -->
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -45,17 +47,16 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav" id="navText">
-          <li><a data-scroll href="#divOne">One</a></li>
-          <li><a data-scroll href="#divTwo">Two</a></li>
-          <li><a data-scroll href="#pdx">About Us</a></li>
-          <li><a data-scroll href="#contact">contact</a></li>
           <li class="dropdown">
-            <a href="#" id="dd" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+            <a href="#" id="dd" class="dropdown-toggle" data-toggle="dropdown">About Us <b class="caret"></b></a>
             <ul class="dropdown-menu" role="menu">
-              <li><a data-scroll href="#listings">Current Listings</a></li>
-              <li><a data-scroll href="#contact">Contact</a></li>
+              <li><a data-scroll href="#aboutUs">Team</a></li>
+              <li><a data-scroll href="#coreValues">Core Values</a></li>
             </ul>
           </li>
+          <li><a data-scroll href="#itRecuiting">IT Recruiting</a></li>
+          <li><a data-scroll href="#contact">Contact Us</a></li>
+          
         </ul>
 
 
@@ -111,84 +112,207 @@
 
 
 <div class="content">
-  
+
 
 
   <div id="divOne" class="row">    
-    <div class="col-md-6 divLeft">
+    <div class="col-md-6">
       <img class="img-responsive" src="images/office.jpg">
     </div>
-    <div class="col-md-6 divRight">
-      Lorem ipsum dolor sit amet <br>
-      Lorem ipsum dolor sit amet <br><br>
+    <div class="col-md-6">
 
-      Lorem ipsum dolor sit amet <br>
-      Lorem ipsum dolor sit amet <br>
-      Lorem ipsum dolor sit amet <br>
-      Lorem ipsum dolor sit amet <br>
-    </div>
-  </div>
+      <div id="aboutUs" class="row">
+        <span class="title col-xs-12">ABOUT US</span><br>
+        Future State Consulting was established in 2012 with the primary goal of assisting our clients in attracting and retaining  world class talent to help them with their business objectives.   We represent some of Portland&#39;s hottest technology companies and industry leaders within the Retail, Manufacturing and Clean Energy space.  Some of our talent areas of focus include:
 
+        <ul class="col-xs-4">
+          <li>Project Managers/Agile Leads</li>
+          <li>Application/Software Architects</li>
+          <li>Software Developers</li>
+          <li>Programmers</li>
+          <li>QA Professionals</li>
+        </ul>
+        <ul class="col-xs-4 col-xs-offset-3">
+          <li>Business Analysts</li>
+          <li>Testers</li>
+          <li>Web Developers</li>
+          <li>Database Administrators</li>
+          <li>Technical Writers</li>
+        </ul>
+        <br>
 
+        <span class="title col-xs-12"><a data-toggle="modal" data-target=".static">Meet The Team</a></span>
 
+        <div class="modal fade static" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
 
-  <div id="clouds" class="row">
+              <div class="row aboutDiv">
+                <div class="col-xs-6"><img class="img-responsive dannImg" src="images/dann.jpg"></div>
+                
+                <div class="col-xs-6">
+                  <span class="title">Dann Black</span><br>
+                  Dann Black is the Founder of Future State Consulting and leads the Business Development effort for the organization.  Dann started in the Technology staffing and recruiting business shortly after receiving his Business Degree from Washington State University in 1995.  He takes pride in the many strong relationships that have been built in the NW and believes strongly in Future States core values built on Respect, Client Service and Teamwork.  Dann has a proven ability to organize and develop record-breaking teams and increase market share for partners. Dann is a successful manager with a lead-by-example approach and a strong focus on delivering value to clients.
+                  </div>
 
+                <div class="col-xs-6">
+                  Previous to Future State Dann started in the Technology Staffing Industry as one of the first associates with Hall Kinion &amp; Associates where he received numerous awards for record branch growth and individual production.  Dann also worked for the Executive Search firm Huntington Group, based in Conneticut where he lead the West Coast Technology practice.  Dann resides in Tigard, Oregon and enjoys fishing on the Tualatin river after work with his fianc&eacute;e Sarah Prohaska and daughters Megan and Emma.  He can sometimes be seen riding his bike to the office on Main street in Tigard.
+                </div>
+                <br>
+              </div>
 
-    <div class="quote col-xs-6 col-md-5 col-md-offset-1 textBox">
-      <div class="col-md-6  yellowTop">Title</div><br>
-      <div id="cloudText" class="col-md-6 ">
-        "Lorem ipsum <br> dolor sit amet, consectetur adipisicing elit" 
+              <div class="row aboutDiv">
+                <div class="col-xs-6"><img class="img-responsive harrisonImg" src="images/harrison.jpg"></div>
+
+                <div class="col-xs-6">
+                  <span class="title">Harrison Bishop</span><br>
+                  Harrison is Partner and Managing Director for Future State Consulting.  He jumped into the recruiting industry after his baseball career with the Pittsburgh Pirates came to an end and quickly found success by combining an innate competitive spirit and ability to build lasting relationships.  Harrison engages in new business development and account management but his primary focus for Future State is the direct recruitment of premier IT professionals.  He prides himself on creating a complete experience for both clients and candidates that transcends the industry.
+                  <br>  
+
+                  In his free time, Harrison enjoys playing golf, basketball and spending time with his wife, Kelsey and two rescue dogs, Abigail and Nelson.  They are expecting their first child in November.  Harrison holds a B.S. from the University of Washington where he was a student-athlete on their baseball team, he was drafted in the 2007 MLB draft.
+                </div>
+                <br><br>
+              </div>
+
+              <div class="row aboutDiv">
+                
+                <div class="col-xs-6"></div>
+                <div class="col-xs-6">
+                  Sarah Fagan<br>
+                  Sarah is a technical recruiting professional with over a decade of experience in the staffing industry.   As a Senior Talent Executive, she is responsible for recruiting IT professionals as well as maintaining long term relationships with those candidates.   Sarah also engages with clients both in new business development and account management.  This enables her to focus on both candidate and client satisfaction.
+                
+                  Sarah grew up in Portland and loves everything fitness/sport related.  While in college at Warner Pacific, she played for the women&#39;s soccer team.  She graduated with a Bachelor&#39;s Degree in Psychology and a minor in child development.  Sarah is a mom to an awesome son named Kieran.  He is not following her footsteps in soccer because he is an insane football fanatic.  And most importantly, he has been well trained to love THE DUCKS! 
+                </div>
+              </div>
+            </div> <!-- modal-content -->
+          </div>
+        </div>  <!-- modal-fade -->
+        
       </div>
+
+
+
+    </div>
+  </div>
+
+
+  <div id="coreValues" class="row">
+    <div class="col-xs-12 col-md-6">
+    <div class="col-xs-6"><h2>Core Values</h2><br></div>
+
+    <div class="col-xs-12 col-md-6">
+      Client and Candidate Service<br>
+      Our client&#39;s needs drive our business.  We strive to help our clients and candidates get from their Current State to Future State by understanding their ever changing needs 
     </div>
 
-    <div class="quote col-xs-6 col-md-5 col-md-offset-1 textBox">
-      <div class="col-md-6  yellowTop">Title</div><br>
-      <div id="cloudText" class="col-md-6 ">
-        "Lorem ipsum <br> dolor sit amet, consectetur adipisicing elit" 
-      </div>
+    <div class="col-xs-12 col-md-6">
+      Teamwork and Fun<br>
+      We recognize that the best way to deliver the right talent match for our clients is for us to have a highly effective recruiting team that works hard and has fun doing it<br>
     </div>
-    
   </div>
-  <!-- </div> -->
-
-
-  
-
-  <div id="divTwo" class="row">
-   <div id="quoteLeft" class="col-md-6">
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit" - Client Name
-  </div>
-
-  <div id="quoteRight" class="col-md-6">
-    "Hello, consectetur adipisicing elit" - Client Name
-  </div>
-
-  <div id="quoteBottom" class="col-md-12">
-    <hr>
-    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-  </div>
-
-  <div id="quoteRunoff" class="cloudText">
-
-    Drop us a line.
-  </div>    
 </div>
+
+<div id="coreValues" class="row">
+    <div class="col-xs-12 col-md-6">
+
+    <div class="col-xs-12 col-md-6">
+      Respect<br>
+      Having an internal culture of respect and trust translates to empowered associates that are better able to deliver the right match to our clients
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+      Relationships<br>
+      Strong and lasting business relationships based on trust and encouraging open and honest interaction
+    </div>
+
+    <div class="col-xs-12 col-md-6">
+      Environment and Community<br>
+      We recognize our responsibility to be active in our local communities. We respect the quality environment the Pacific Northwest offers
+    </div>
+  </div>
+
+    </div>
+  </div>
+
+
+<!-- <div id="clouds" class="row">
+
+
+  <div class="quote col-xs-6 col-md-5 col-md-offset-1 textBox">
+    <div class="col-md-6  yellowTop">Title</div><br>
+    <div id="cloudText" class="col-md-6 ">
+      "Lorem ipsum <br> dolor sit amet, consectetur adipisicing elit" 
+    </div>
+  </div>
+
+  <div class="quote col-xs-6 col-md-5 col-md-offset-1 textBox">
+    <div class="col-md-6  yellowTop">Title</div><br>
+    <div id="cloudText" class="col-md-6 ">
+      "Lorem ipsum <br> dolor sit amet, consectetur adipisicing elit" 
+    </div>
+  </div>
+
+</div> -->
+<!-- </div> -->
+
+
+
+
+<div id="divTwo" class="row">
+ <!-- <div id="quoteLeft" class="col-md-6">
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit" - Client Name
+</div> -->
+
+
+
+<img class="img-responsive" src="images/comp.jpg">
+
+<h2>IT Recruiting</h2>
+<div id="itRecuiting" class="col-xs-12 col-md-6 col-md-offset-6">
+
+
+
+
+  Talent gaps play havoc with project timelines, strategy, workflow and morale.<br> They can derail competitive advantage. When that happens, you need a flexible and responsive IT recruiting partner to help you get back on track fast.<br>
+    Whether you seek a seasoned IT manager, hard-to-find skills or a full team to augment in-house resources, the IT recruiting team at Future State can quickly and creatively tackle any technology talent challenge.<br>
+    <br>
+
+    As your direct IT recruiting connection, Future State can deploy its IT recruiting experts to rapidly fill:
+      <br>
+
+      Contract-based positions<br>
+      Contract-to-hire positions<br>
+      Direct hire positions<br>
+      With success across the entire spectrum of IT skills and experience, Future State also offers specialized IT recruiting expertise in Application Development, QA and infrastructure.
+    </div>
+
+
+
+<!-- <div id="quoteBottom" class="col-md-12">
+  <hr>
+  At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+</div>
+
+<div id="quoteRunoff" class="cloudText">
+
+  Drop us a line.
+</div>     -->
+</div>  
 
 <div id="pdx" class="row">
   <img class="img-responsive col-lg-12" src="images/portland.jpg">
 </div>
 
 <div id="divThree" class="row">
-  <div id="contact" class="col-md-6 divLeft">
-    Future State | Contact
+  <div id="listings" class="col-md-6">
+    Current Listings
   </div>
 
-  <div id="listings" class="col-md-6 divRight">
-    Current Listings <br>
-    <p>Listing</p>
-    <p>Listing</p>
-    <p>Listing</p>
+  <div id="contact" class="col-md-6">
+    talent@fsconsults.com <br>
+    <p>Contact Form</p>
+    <p>Input</p>
+    <p>Input</p>
   </div>
 
   <div class="col-md-6 col-md-offset-3 divCenter">
@@ -200,8 +324,7 @@
     <div id="contact">
      <h4 class="divText">The Footer!</h4>
    </div> -->
- </div>
-</div><!-- End of Content -->
+ </div><!-- End of Content -->
 
 
 
@@ -212,10 +335,10 @@
 
 
 
-<script>
-  smoothScroll.init
-  ({
-    speed: 500, 
+ <script>
+ smoothScroll.init
+ ({
+  speed: 500, 
     // easing: 'easeInQuart', 
     updateURL: false, 
     offset: 50, 
@@ -223,10 +346,12 @@
     callbackAfter: function ( toggle, anchor ) {} 
   });
 
-  $('#myScrollspy').on('activate.bs.scrollspy', function () {
-    $('this').addClass('active');
-  })
-</script>
+ $('#myScrollspy').on('activate.bs.scrollspy', function () {
+  $('this').addClass('active');
+})
+ </script>
+
+
 
 
 

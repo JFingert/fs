@@ -1,11 +1,26 @@
 body {
 	background-color: black;
-	font-size: 60px;
-	font-family: 'Exo', sans-serif;
-	font-weight: 200;
-	color: white;
-	text-align: center;
+	/*font-size: 60px;*/
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: helvetica, Arial, sans-serif;
+  font-weight: 100;
+  color: white;
+	/*text-align: center;*/
 }
+
+a a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.alignLeft {
+  text-align: left;
+}
+
 
 .navbar {
   color: white;
@@ -34,7 +49,7 @@ body {
 }
 
 #slogan {
-  height: 700px;
+  /*height: 700px;*/
   background: transparent;
   font-size: 50px;
   color: white;
@@ -45,33 +60,109 @@ body {
   display: block;
 }
 
-/*div {
-	float: center;
-}*/
+
+#divOne {
+  position: relative;
+  background: black;
+  
+  /*font-weight: 100;*/
+  
+}
+
+#aboutUs, #aboutUs a {
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
+  font-family: helvetica, Arial, sans-serif;
+
+  color: white;
+  font-size: 19px;
+}
+
+#aboutUs ul {
+  font-size: 15px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+#coreValues {
+  font-size: 19px;
+  /*background: black;  */
+  font-weight: 400;
+  height: 500px;
+  background: rgb(242, 242, 242);
+  font-size: 19px;
+  font-weight: 400;
+  color: black;
+  position: relative;
 
 
+}
+#coreValues div {
+  padding-bottom: 10px;
 
-/*.container {
-	background-color: black;
+
+}
+
+#divTwo {
+  /*background: url("images/comp.jpg");*/
+  /*height: 100%;*/
+  width: 100%;
+  font-size: 19px;
+  font-weight: 400;
+  color: black;
+  /*text-align: right;*/
+  position: relative;
+}
+
+#divTwo h2 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
 }
 
 
-.carousel-indicators {
-	display:none; 
+#itRecuiting {
+  /*height: 100%;*/
+  position: absolute;
+  top: 10%;
+  text-align: right;
+  font-weight: 500;
+}
+
+.modal-content {
+  color: black;
+  font-size: 15px;
+}
+
+.aboutDiv {
+  margin-bottom: 10px;
+}
+
+/*.dannImg {
+  padding-top: 80px;
+}
+
+.harrisonImg {
+  padding-top: 15px;
 }*/
 
-/*.divLeft, .divRight {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}*/
+#divThree {
+  height: 500px;
+  background: rgb(242, 242, 242);
+  font-size: 19px;
+  font-weight: 400;
+  color: black;
+  position: relative;
+}
 
-.divCenter {
+/*.divCenter {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 30px;
   font-weight: 150;
   color: #999;
-}
+}*/
 
 
 /*.carousel-fade {
@@ -140,10 +231,7 @@ body {
   height: 200px;
 }
 
-#divOne {
-	position: relative;
-  background: #6e5e78;
-}
+
 
 .textOverlay {
   background: white;
@@ -169,16 +257,24 @@ body {
 	font-weight: 150;
 }
 
-#contact, #listings, #divOne, #divTwo {
-	font-size: 30px;
+#listings {
+	/*font-size: 30px;
 	font-weight: 150;
-	color: #999;
+	color: #999;*/
 }
 
-#divThree {
-  height: 500px;
-  background: #6e5e78;
+#contact {
+  text-align: right;
+  font-size: 30px;
+  font-weight: 150;
+  color: black;
 }
+
+
+
+
+
+
 
 @media (max-width: 600px) {
   #cloudText {
