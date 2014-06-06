@@ -60,7 +60,7 @@
               </ul>
             </li>
             <li><a data-scroll href="#itRecuiting">IT Recruiting</a></li>
-            <li><a data-scroll href="#contact">Contact Us</a></li>
+            <li><a data-toggle="modal" data-target="#contact">Contact Us</a></li>
 
           </ul>
 
@@ -70,6 +70,34 @@
     </nav>
 
 
+    <!-- contact modal -->
+
+    <div class="modal fade" id="contact">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Contact</h4>
+          </div>
+          <div class="modal-body row">
+
+            <div class="col-sm-6">
+              <p>Contact Us</p>
+          </div>
+          <div class="col-sm-6">
+              <p>Contact Us</p>
+          </div>
+
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+    <!-- contact modal -->
 
 
 
@@ -110,7 +138,7 @@
 </div>
 
 <div id="slogan">
-  <img src="images/logo.png">
+  <!-- <img src="images/logo.png"> -->
   
 </div>
 
@@ -120,19 +148,20 @@
 
 
   <div id="divOne" class="row container-fluid">    
-    <div class="col-xs-12 col-sm-6">
+    <div class="col-xs-12 col-sm-6" id="office">
       <img class="img-responsive" src="images/office.jpg">
       <button type="button" class="" data-toggle="modal" data-target=".static">Meet The Team</button>
     </div>
 
     <div class="col-xs-12 col-sm-6" id="aboutUs">
-      About Us
+      
       <div class="row container-fluid">
        <div class="col-xs-12">
+        About Us <br>
         Future State Consulting was established in 2012 with the primary goal of assisting our clients in attracting and retaining  world class talent to help them with their business objectives.   We represent some of Portland&#39;s hottest technology companies and industry leaders within the Retail, Manufacturing and Clean Energy space.  Some of our talent areas of focus include:
       </div>
 
-      <div class="col-xs-6">
+      <div class="col-xs-12 col-sm-6">
         <ul>
           <li>Project Managers/Agile Leads</li>
           <li>Application/Software Architects</li>
@@ -141,7 +170,7 @@
           <li>QA Professionals</li>
         </ul>
       </div>
-      <div class="col-xs-6">
+      <div class="col-xs-12 col-sm-6">
         <ul>
           <li>Business Analysts</li>
           <li>Testers</li>
@@ -209,40 +238,32 @@
 
 
 <div id="coreValues" class="row container-fluid">
-  <div class="title col-xs-12">Core Values</div>
+  <div class="col-md-5 col-md-offset-1 col-sm-5 col-xs-12"></div>
+  <div class="col-md-5">
+    <span class="title">Core Values</span>
 
-  <div class="col-xs-12 col-md-6">
     <h3>Client and Candidate Service</h3>
-    Our client&#39;s needs drive our business.  We strive to help our clients and candidates get from their Current State to Future State by understanding their ever changing needs 
-  </div>
-
-  <div class="col-xs-12 col-md-6">
+    <p>
+      Our client&#39;s needs drive our business.  We strive to help our clients and candidates get from their Current State to Future State by understanding their ever changing needs 
+    </p>
     <h3>Teamwork and Fun</h3>
-    We recognize that the best way to deliver the right talent match for our clients is for us to have a highly effective recruiting team that works hard and has fun doing it<br>
-  </div>
-</div>
-<!-- </div> -->
-
-<div id="coreValues" class="row container-fluid">
-
-  <div class="col-xs-12 col-md-4">
+    <p>
+      We recognize that the best way to deliver the right talent match for our clients is for us to have a highly effective recruiting team that works hard and has fun doing it
+    </p>
     <h3>Respect</h3>
-    Having an internal culture of respect and trust translates to empowered associates that are better able to deliver the right match to our clients
-  </div>
-
-  <div class="col-xs-12 col-md-4">
+    <p>
+      Having an internal culture of respect and trust translates to empowered associates that are better able to deliver the right match to our clients
+    </p>
     <h3>Relationships</h3>
-    Strong and lasting business relationships based on trust and encouraging open and honest interaction
-  </div>
-
-  <div class="col-xs-12 col-md-4">
+    <p>
+      Strong and lasting business relationships based on trust and encouraging open and honest interaction
+    </p>
     <h3>Environment and Community</h3>
-    We recognize our responsibility to be active in our local communities. We respect the quality environment the Pacific Northwest offers
+    <p>
+      We recognize our responsibility to be active in our local communities. We respect the quality environment the Pacific Northwest offers
+    </p>
   </div>
-
-
-</div>
-</div>
+</div> <!-- core values -->
 
 
 <!-- <div id="clouds" class="row">
@@ -274,30 +295,29 @@
 
   <img class="img-responsive" src="images/comp.jpg">
 
-  <h2>IT Recruiting</h2>
+  
 
-  <div id="itRecruiting" class="row container">
-    <div class="col-xs-12 col-md-8 col-md-offset-4">
+  <div id="itRecruiting" class="row">
+    <div class="col-md-5 col-md-offset-1 col-sm-5 col-xs-12"><h2>IT Recruiting</h2></div>
+    <div class="col-md-5 col-md-offset-1 col-xs-12">
 
       Talent gaps play havoc with project timelines, strategy, workflow and morale.<br><br> 
       They can derail competitive advantage. When that happens, you need a flexible and responsive IT recruiting partner to help you get back on track fast.<br><br>
       Whether you seek a seasoned IT manager, hard-to-find skills or a full team to augment in-house resources, the IT recruiting team at Future State can quickly and creatively tackle any technology talent challenge.<br><br>
-    </div>
 
-    <div class="row">
 
-      <div class="col-xs-12 col-md-4 col-md-offset-4 directIt">
-        As your direct IT recruiting connection, Future State can deploy its IT recruiting experts to rapidly fill:
-        <br><br>
-        <div id="rapidlyFill">
-          <p>Contract-based positions</p>
-          <p>Contract-to-hire positions</p>
-          <p>Direct hire positions</p>
-        </div>
+
+      As your direct IT recruiting connection, Future State can deploy its IT recruiting experts to rapidly fill:
+      <br><br>
+      <div id="rapidlyFill">
+        <p>Contract-based positions</p>
+        <p>Contract-to-hire positions</p>
+        <p>Direct hire positions</p>
       </div>
-      <div class="col-xs-4">
-        With success across the entire spectrum of IT skills and experience, Future State also offers specialized IT recruiting expertise in Application Development, QA and infrastructure.
-      </div>
+      
+      
+      With success across the entire spectrum of IT skills and experience, Future State also offers specialized IT recruiting expertise in Application Development, QA and infrastructure.
+      
     </div>
 
 
@@ -313,9 +333,9 @@
 
 <div id="divThree">
   <div class="col-md-6"></div>
-  <div id="contact" class="col-md-6">
+  <div class="col-md-6">
     <!-- talent@fsconsults.com <br> -->
-    <form action= "" enctype= "multipart/form-data" method= "post">
+    <!-- <form action= "" enctype= "multipart/form-data" method= "post">
       <fieldset>
 
         <h3>
@@ -334,7 +354,7 @@
         </h3>
 
         <h3>
-          <label for = "resume"> File to upload: </label><br>
+          <label for = "resume"> File to upload: </label>
           <input type="file" name="files[]" id="files" multiple onchange="handleFiles(this.files)">
         </h3>    
         
@@ -342,7 +362,7 @@
           <input class="button" type = "submit" value = "Send" onClick="sendTheMail(); return false;"></input>
         </h3>
       </fieldset>
-    </form>
+    </form> -->
 
   </div>
 
