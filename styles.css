@@ -29,6 +29,9 @@ a, a:visited {
   text-decoration: none;
  }
 
+.center {
+  text-align: center;
+}
 /*
 .alignRight {
   text-align: right;
@@ -44,10 +47,25 @@ a, a:visited {
   background: black;
 }
 
-.nav {
+.collapse {
+  /*text-align: center;*/
+}
+
+.nav li {
   color: white;
 }
 
+.nav li:hover {
+  background: #2B2B2B;
+}
+
+.dropdown-menu {
+  background: #2B2B2B;
+}
+
+.dropdown-menu li a {
+  color: white;
+}
 .content {
   /*height: 100%;*/
   position: relative;
@@ -140,11 +158,19 @@ a, a:visited {
 
 #divOne {
   /*position: relative;*/
+  /*background: url(images/office.jpg) 
+    center 0.2 no-repeat;*/
   background: black;
-  padding-left: 0px;
-  
+  padding: 0px;
+  color: white;
+  text-align: right;
+
   /*font-weight: 100;*/
   
+}
+
+.established {
+  background: #3B4A45;
 }
 
 #aboutUs, #aboutUs a {
@@ -157,6 +183,7 @@ a, a:visited {
 
 #aboutUs ul {
   font-size: 15px;
+  /*padding-right: 0px;*/
 }
 
 .aboutTitle {
@@ -171,7 +198,10 @@ a, a:visited {
 }*/
 
 .btn-default {
-  /*width: 20px;*/
+  background: transparent;
+  font-family: helvetica, Arial, sans-serif;
+  text-shadow: none;
+  color: white;
 }
 
 .modal-content {
@@ -184,9 +214,13 @@ a, a:visited {
 }
 
 #office {
-  padding-left: 0px;
+  padding: 0px;
   text-align: center;
 }
+
+/*.col-xs-12 {
+  padding: 0px;
+}*/
 
 .modalImg {
   padding-top: 50px;
@@ -468,4 +502,5 @@ a, a:visited {
   #aboutUs {
     /*padding-left: 10px;*/
   }
+ 
 }
