@@ -106,12 +106,13 @@
 }
 
 #quotes {
-  font-size: 30px;
+  font-size: 20px;
   font-family: helvetica, Arial, sans-serif;
   position: absolute;
   display: block;
   margin-left: 20px;
-  bottom: 200px;
+  top: 50px;
+  color: black;
   /*height: 20px;*/
   width: 50%;
   background: transparent;
@@ -178,7 +179,7 @@
 }
 
 .talent {
-  padding-top: 15%;
+  /*padding-top: 15%;*/
   padding-bottom: 15%;
 }
 
@@ -219,6 +220,8 @@
     color: white;
     border: none;
     border-radius: none;
+    margin-bottom: 10%;
+    /*margin-left: 5%;*/
   }
 
   .btn-default:hover {
@@ -548,8 +551,9 @@ padding-right: 0px;*/
 
     #quotes {
       font-size: 12px;
-      bottom: 50px;
+      top: 25px;
       width: 75%;
+      margin-left: 5px;
     }
 
 
