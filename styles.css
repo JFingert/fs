@@ -87,7 +87,7 @@
 }
 
 #landing {
-  background:#352c35 url('images/mtHoodLg.png') 
+  background:#352c35 url('images/mtHoodWebt.png') 
   center 20px no-repeat;background-size:100% auto;
   max-width: 1500px;
   position: fixed;
@@ -207,6 +207,10 @@
   text-align: right;
 }
 
+.bio {
+  margin-bottom: 70px;
+}
+
 /*.meetTeam {
   background: none;
   border: solid 1px grey;
@@ -262,7 +266,7 @@
   }*/
 
   .modalImg {
-    padding-top: 50px;
+    padding-top: 10px;
   }
 
   .title {
