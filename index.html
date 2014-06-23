@@ -20,12 +20,12 @@
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
   <script src="smooth-scroll.js"></script>
-  <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+  // <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
 
 
 
-  <link href='http://fonts.googleapis.com/css?family=Exo:100,400' rel='stylesheet' type='text/css'> 
-  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic' rel='stylesheet' type='text/css'>
+  <!-- <link href='http://fonts.googleapis.com/css?family=Exo:100,400' rel='stylesheet' type='text/css'> 
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic' rel='stylesheet' type='text/css'> -->
   <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -94,10 +94,9 @@
               <a href="mailto:talent@fsconsults.com" target="_top">
                 talent@fsconsults.com</a> 
               </div>
-
+             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             </div>
             <!-- <div class="modal-footer"> -->
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
             <!-- </div> -->
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -219,7 +218,10 @@
     <div class="modal-content">
 
       <div class="row aboutDiv container-fluid">
-        <div class="col-xs-12 col-sm-6"><img class="img-responsive modalImg" src="images/dann2Cropped.png"></div>
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive modalImg" src="images/dann2Cropped.png">
+          <a href="dblack@fsconsults.com" target="_top">dblack@fsconsults.com</a>
+        </div>
 
         <div class="bio col-xs-12 col-sm-6">
           <span class="title">Dann Black</span><br>
@@ -235,7 +237,10 @@
       </div>
 
       <div class="row aboutDiv container-fluid">
-        <div class="col-xs-12 col-sm-6"><img class="img-responsive modalImg" src="images/harrison2Cropped.png"></div>
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive modalImg" src="images/harrison2Cropped.png">
+          <a href="hbishop@fsconsults.com" target="_top">hbishop@fsconsults.com</a>
+        </div>
 
         <div class="bio col-xs-12 col-sm-6">
           <span class="title">Harrison Bishop</span><br>
@@ -249,7 +254,10 @@
 
       <div class="row aboutDiv container-fluid">
 
-        <div class="col-xs-12 col-sm-6"><img class="img-responsive modalImg" src="images/sarahCropped.png"></div>
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive modalImg" src="images/sarahCropped.png">
+          <a href="sfagan@fsconsults.com" target="_top">sfagan@fsconsults.com</a>
+        </div>
         <div class="bio col-xs-12 col-sm-6">
           <span class="title">Sarah Fagan</span><br>
           Sarah is a technical recruiting professional with over a decade of experience in the staffing industry.   As a Senior Talent Executive, she is responsible for recruiting IT professionals as well as maintaining long term relationships with those candidates.   Sarah also engages with clients both in new business development and account management.  This enables her to focus on both candidate and client satisfaction.
@@ -261,7 +269,10 @@
 
       <div class="row aboutDiv container-fluid">
 
-        <div class="col-xs-12 col-sm-6"><img class="img-responsive modalImg" src="images/jennaCropped.png"></div>
+        <div class="col-xs-12 col-sm-6">
+          <img class="img-responsive modalImg" src="images/jennaCropped.png">
+          <a href="jhermann@fsconsults.com" target="_top">jhermann@fsconsults.com</a>
+        </div>
         <div class="col-xs-12 col-sm-6">
           <span class="title">Jenna Hermann</span><br>
           Jenna is the newest member of the Future State Consulting Team. Working as our consulting intern, 
@@ -385,7 +396,68 @@
 
 <div id="divThree">
   <div class="col-md-12">&copyFuture State Consulting</div>
-  <div class="">
+  <a data-toggle="modal" data-target="#listings">Current Listings</a>
+
+
+
+
+
+
+    <!-- listings modal -->
+
+    <div class="modal fade" id="listings">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <!-- <div class="modal-header"> -->
+          <h4 class="modal-title"></h4>
+          <!-- </div> -->
+          <div class="modal-body row">
+
+            <div class="col-sm-12">
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              efdiuwgefiugwefpiugawef<br>
+              <!-- HiringThing Listing Widget -->
+              <script type="text/javascript">
+              var ht_settings = ( ht_settings || new Object() );
+              ht_settings.site_url = "future-state-consulting";
+              </script>
+              <script src="//assets.hiringthing.com/javascripts/embed.js" type="text/javascript"></script>
+              <div id="hiringthing-jobs"></div>
+              <!-- widget stylesheet can be overridden or replaced for customization -->
+              <!-- <link rel="stylesheet" type="text/css" media="all" href="//assets.hiringthing.com/stylesheets/embed.css" /> -->
+              <noscript>
+                <a href="http://future-state-consulting.hiringthing.com">View our currently open positions.</a>
+                <br /><br />
+                <!-- <small>Job listings brought to you by <a href="http://www.hiringthing.com">HiringThing</a>.</small> -->
+              </noscript>
+              <!-- end HiringThing Listing Widget -->
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            
+
+          </div>
+          <!-- <div class="modal-footer"> -->
+          
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+
+
+    <!-- listings modal -->
+
+
+
+
 
 
     <!-- talent@fsconsults.com <br> -->
@@ -418,7 +490,6 @@
       </fieldset>
     </form> -->
 
-  </div>
 
   <!-- <div class="col-md-6 col-md-offset-3 divCenter">
     At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
@@ -455,7 +526,7 @@
           // ' " <i>Future State listened to my requirements and delivered a focused set of candidates that fit my needs. I look forward to working with them again</i> " <br>CTO, Portland'
           // ];
 
-           var array = [
+          var array = [
           ' " Future State has been reliable and easy to work with in finding our engineering team highly targeted candidates to fill our mobile application development roles " <br>CEO, San Francisco', 
           ' " No matter what kind of engineers I\'m looking for, Future State always finds top notch talent. " <br>VP Engineering, Beaverton', 
           ' " Future State bridged the gap from recruiter to trusted partner very quickly; reliable, clever, sensible.  Great people to work with! " <br>Director Quality Management,  Portland', 
@@ -494,8 +565,58 @@
 };
 
 $( document ).ready(function() {
-  numHandler(0)
+  numHandler(0);
+  // currentOPenings();
 });
+
+
+
+
+
+
+// function currentOPenings () {
+//     var apiKey = "0nucn52zdsyomh31cjd88so8",
+//       url = "http://fsconsults.hiringthing.com/remote/jobs.json";
+
+//     $.getJSON(url + "&callback=?", null, function(groupData) {
+//       $("#jobs").html(groupData);
+//       // console.log("groupData" ,groupData);
+//       //console.log("this is 11 groups: ");
+//       //console.log(app.groupObj);
+//       // app.models.groups.set(app.groupObj);
+//     });
+//   }
+
+// $(document).ready(function () {
+//     $.ajax({
+//         type: "GET",
+//         url: "http://fsconsults.hiringthing.com/remote/jobs/active.json",
+//         dataType: "jsonp",
+//         // contentType: text/javascript,
+//         success: function(results){
+//             console.log(results);
+//         },
+//         error: function(XMLHttpRequest, textStatus, errorThrown){
+//             alert("Error");
+//         }
+//     });
+//   });
+
+ // $(document).ready(function () {
+ //        $.ajax( {
+ //            type: 'GET',
+ //            datatype: 'jsonp',
+ //            data: {},
+ //            crossDomain: 'true',
+ //            url: "http://fsconsults.hiringthing.com/0nucn52zdsyomh31cjd88so8:66d848bd0ed7e9f8fe5f5de7ccc2f3fbb228afd0/jobs/active.json",
+ //            error: function(textStatus, errorThrown) {
+ //                alert("error");
+ //            },
+ //            success: function(msg) {
+ //                console.log(msg);
+ //            }
+ //        });
+ //    });
 
   // Create a function to log the response from the Mandrill API
   // function log(obj) {
@@ -565,11 +686,7 @@ $( document ).ready(function() {
   // }
 
 
-  </script>
 
-
-
-  <script>
   smoothScroll.init
   ({
     speed: 500, 

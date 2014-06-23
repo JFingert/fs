@@ -393,6 +393,14 @@ padding-right: 0px;*/
 #divThree div {
   padding-top: 50px;
 }
+
+#divThree a {
+  color: black;
+}
+
+.ht-link {
+  display: none;
+}
 /*.divCenter {
   margin-top: 20px;
   margin-bottom: 20px;
