@@ -48,6 +48,7 @@
   .navbar {
     color: white;
     background: black;
+    margin-bottom: 0px;
   }
 
   .navbar-collapse {
@@ -445,16 +446,33 @@ padding-right: 0px;*/
   position: relative;
 }
 
-#divThree div {
+/*#divThree div {
   padding-top: 50px;
-}
+}*/
 
 #divThree a {
   color: black;
 }
 
+#divThree a:hover {
+  color: #46B054;
+}
+
+#hiringthing-jobs {
+  text-align: left;
+}
+
 .ht-link {
   display: none;
+}
+
+.ht-location {
+  font-size: 12px;
+  padding-top: 0px;
+}
+
+.ht-summary {
+  font-size: 15px;
 }
 /*.divCenter {
   margin-top: 20px;
@@ -561,6 +579,10 @@ padding-right: 0px;*/
   /*height: 200px*/
 }
 
+.fsBottom {
+  padding-top: 50px;
+}
+
 /*@media (min-width: 868px) {
   .navbar .navbar-nav {
     display: inline-block;
@@ -625,10 +647,14 @@ padding-right: 0px;*/
     }
 
     #quotes {
-      font-size: 12px;
+      font-size: 10px;
       top: 25px;
       width: 75%;
       margin-left: 5px;
+    }
+
+    .CVQuote {
+      font-size: 25px;
     }
 
 
