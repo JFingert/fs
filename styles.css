@@ -89,7 +89,7 @@
 
 #landing {
   background:#352c35 url('images/mtHoodWebt.png') 
-  center 20px no-repeat;background-size:100% auto;
+  center 0px no-repeat;background-size:100% auto;
   max-width: 1500px;
   position: fixed;
   height: 100%;
