@@ -11,7 +11,7 @@
     body {
      background: transparent;
      /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
-     font-family: "Muli", open sans, helvetica, sans-serif;
+     font-family: "Muli", "open sans", helvetica, sans-serif;
      font-weight: 100;
      color: #EEE8DA;
      max-width: 1500px !important;
@@ -88,8 +88,10 @@
 }
 
 #landing {
-  background:#352c35 url('images/mtHoodWebt.png') 
-  center 0px no-repeat;background-size:100% auto;
+  background:#352c35 url('images/mtHoodWebt.png');
+  /*center 0px no-repeat;background-size:100% auto;*/
+  background-attachment: fixed;
+  background-size: cover;
   max-width: 1500px;
   position: fixed;
   height: 100%;
@@ -100,7 +102,7 @@
   background: url(images/logo.png) 
   center no-repeat;
   height: 100%;
-  max-height: 900px;
+  /*max-height: 900px;*/
   /*top: 50px;*/
   position: relative;
   display: block;
@@ -114,7 +116,7 @@
   position: absolute;
   display: block;
   margin-left: 20px;
-  top: 50px;
+  /*top: 50px;*/
   color: black;
   /*height: 20px;*/
   width: 50%;
