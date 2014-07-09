@@ -2,7 +2,7 @@
 <head>
   <title>Future State</title>
   <meta charset="utf-8">
-  <meta name="keywords" content="Future State, your direct IT recruiting connection">
+  <meta name="keywords" content="Future State, your direct IT recruiting connection, Staffing, Recruiter, Technology, Portland">
   <meta name="description" content="Future State Consulting represents some of Portland's hottest technology companies and industry leaders within the Retail, Manufacturing and Clean Energy space.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -23,12 +23,10 @@
   <!-- Latest compiled and minified JavaScript -->
   <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
-  <script src="smooth-scroll.js"></script>
-  // <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+  <script src="smooth-scroll.js"></script>//
 
   <link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic' rel='stylesheet' type='text/css'>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <title></title>
 </head>
 
@@ -196,7 +194,7 @@
                   <!-- </div> -->
 
                   <!-- <div class="col-xs-6"> -->
-                  Previous to Future State Dann started in the Technology Staffing Industry as one of the first associates with Hall Kinion &amp; Associates where he received numerous awards for record branch growth and individual production.  Dann also worked for the Executive Search firm Huntington Group, based in Conneticut where he lead the West Coast Technology practice.  Dann resides in Tigard, Oregon and enjoys fishing on the Tualatin river after work with his fianc&eacute;e Sarah Prohaska and daughters Megan and Emma.  He can sometimes be seen riding his bike to the office on Main street in Tigard.
+                  Previous to Future State Dann started in the Technology Staffing Industry as one of the first associates with Hall Kinion &amp; Associates where he received numerous awards for record branch growth and individual production.  Dann also worked for the Executive Search firm Huntington Group, based in Connecticut where he led the West Coast Technology practice.  Dann resides in Tigard, Oregon and enjoys fishing on the Tualatin river after work with his fianc&eacute;e Sarah Prohaska and daughters Megan and Emma.  He can sometimes be seen riding his bike to the office on Main street in Tigard.
                 </div>
                 <br>
               </div>
@@ -282,7 +280,7 @@
         </div>
 
         <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2">
-          <span class="center"><button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#listings">Current Listings</button></span>
+          <span class="center"><button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#listings">Job Openings</button></span>
         </div>
 
       </div>
@@ -366,7 +364,13 @@
 
 
       <div id="divThree">
-        <div class="fsBottom col-md-12">&copyFuture State Consulting</div>
+        <div class="fsBottom col-md-12">
+          &copyFuture State Consulting
+        </div>
+        <p class="jf">
+          <a href="mailto:joshuafingert@gmail.com">Design by Joshua Fingert</a>
+        </p>
+
 
         <!-- listings modal -->
 
@@ -431,7 +435,7 @@
       $("#quotes").html(array[num]).addClass('slidingQuotes'); 
       setTimeout(function(){
         sliderRemove(num);
-      }, 4000); 
+      }, 5000); 
     };
 
     function sliderRemove(num) {
@@ -442,26 +446,24 @@
     };
 
     function numHandler(val) {
-        // setInterval(function(){
 
+      $("#quotes").removeClass(); 
 
-          $("#quotes").removeClass(); 
+      if(val < 3){
+        val++;
+      } else {
+        val = 0;
+      }
+      quoteSlider(val);
+    };
 
-          if(val < 3){
-            val++;
-          } else {
-            val = 0;
-          }
-          quoteSlider(val);
-        };
+    $( document ).ready(function() {
+      numHandler(0);
+    });
 
-        $( document ).ready(function() {
-          numHandler(0);
-        });
-
-        smoothScroll.init
-        ({
-          speed: 500, 
+    smoothScroll.init
+    ({
+      speed: 500, 
     // easing: 'easeInQuart', 
     updateURL: false, 
     offset: 50, 
@@ -469,11 +471,11 @@
     callbackAfter: function ( toggle, anchor ) {} 
   });
 
-        $('#myScrollspy').on('activate.bs.scrollspy', function () {
-          $('this').addClass('active');
-        })
-        </script>
+    $('#myScrollspy').on('activate.bs.scrollspy', function () {
+      $('this').addClass('active');
+    })
+    </script>
 
 
-      </body>
-      </html>
+  </body>
+  </html>
